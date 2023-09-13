@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * main - print _putcha followed by a new line
-* Return: alway (0)
+* Return: always (0)
 */
 int main(void)
 {
@@ -17,44 +17,3 @@ int main(void)
 
 	return (0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
