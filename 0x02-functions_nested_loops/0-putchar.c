@@ -1,13 +1,11 @@
-#include "main.h" 
-
-/** 
-* main - print putchar followed by a new line 
-*Return :always 0
+#include "main.h"
+/**
+* main - print _putcha followed by a new line
+* Return: alway (0)
 */
-
-int main(void) 
+int main(void)
 {
-	_putchar('_');
+	_putchar('-');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -16,8 +14,27 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
-} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
        
 
 
