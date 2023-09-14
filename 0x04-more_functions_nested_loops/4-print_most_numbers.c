@@ -2,21 +2,17 @@
 /**
 * print_most_numbers - prints numbers except 2 and 4
 *
-* Return: the number since 0 up to 9
+* Return: void
 */
 void print_most_numbers(void)
 {
-	int number = 0;
+	char c;
 
-	for (; number <= 0; number++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		if ((number == 2) || (number == 4))
+		if (!(c == 2 || c == 4))
 		{
-			continue;
-		}
-		else
-		{
-		_putchar(number + '0');
+			_putchar(c);
 		}
 	}
 	_putchar('\n');
